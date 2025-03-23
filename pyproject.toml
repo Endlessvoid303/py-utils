@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyJunkDrawer"
+version = "0.1.0"
+description = "A collection of useful Python utilities"
+authors = [{ name = "Endlessvoid_303", email = "tsecret163@gmail.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+dependencies = []
+
+[tool.setuptools]
+packages = ["pyutils"]
